@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	
+	  <package name="struts2" namespace="/" extends="struts-default"> 
+
+<interceptors>
+	<interceptor-stack name="upload">
+		<interceptor-ref name="defaultStack">
+	
+		</interceptor-ref>
+	</interceptor-stack>
+</interceptors>
+
+		<default-action-ref name="index" />
+
+        <!-- 配置用户登录 -->
+		<action name="login" class="com.struts.LoginAction">
+            <result name="error">/error.jsp</result>
+            <result name="success">/main.jsp</result>
+		</action>
+        <!-- 配置用户注册 -->
+		<action name="register" class="com.struts.RegisterAction">
+			<result name="success">/loginAndRegister.jsp</result>
+			<result name="error">/errorExist.jsp</result>
+		</action>
+   	
+	</package>
+
+	<!-- Add packages here -->
+
+</struts>

@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/js/jquery.min.js,WebRoot/createVote.jsp,WebRoot/UploadTeacherInfoSuccess.jsp,WebRoot/checkStudentInfo.jsp,WebRoot/uploadImageSuccess.jsp,WebRoot/voteAction.jsp,WebRoot/js/jquery-ui.custom.min.js,WebRoot/manageFile.jsp,WebRoot/checkVoteResults.jsp,WebRoot/showVote.jsp,WebRoot/js/jquery.flot.js,WebRoot/modifyPersonalInfo_student.jsp,WebRoot/modifyPersonalInfo_teacher.jsp,WebRoot/vote.jsp
+validator.Unchecked=
